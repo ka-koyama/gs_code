@@ -1,0 +1,89 @@
+html{
+    font-size:62.5%;
+}
+
+body{
+    margin:0 8rem;
+    background-color: rgb(245, 245, 245);
+}
+
+header{
+    font-size:1.6rem;
+    width:125rem;
+    margin:0 1rem;
+}
+
+h1{
+    color:black;
+    padding:0.5rem 0;
+}
+
+h1:after {
+  content: "";
+  display: block;
+  height: 0.4rem;
+  width:30rem;
+  border-radius: 0.3rem;
+  background: -webkit-linear-gradient(to right, rgb(90, 90, 230), transparent);
+  background: linear-gradient(to right, rgb(90, 90, 230), transparent);
+}
+
+.btn_square {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem 0;
+    text-align: center;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 0.4rem #627295;
+    border-radius: 0.3rem;
+    width:13rem;
+}
+
+.btn_square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(0.4rem);
+    transform: translateY(0.4rem);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.btn_square_1 {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.3rem 0;
+    text-align: center;
+    text-decoration: none;
+    background: #f9ad51;/*ボタン色*/
+    color: #000;
+    border-bottom: solid 0.4rem #627295;
+    border-radius: 0.3rem;
+    width:13rem;
+}
+
+.btn_square_1:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(0.4rem);
+    transform: translateY(0.4rem);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+.font{
+      font-size:1.6rem;
+      margin-top: 5rem;
+      margin-left:1rem;
+      padding: 1rem;
+      width: 80rem;
+      height:50rem;
+      overflow:scroll;
+      border: solid 0.1rem #f9fbff;
+      background-color: #f9fbff;
+      border-radius: 0.3rem;
+      box-shadow:0 0 0.2rem;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
